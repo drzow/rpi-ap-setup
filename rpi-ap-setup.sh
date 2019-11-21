@@ -57,10 +57,10 @@ cat >> /etc/network/interfaces <<EOF
 # Added by rPi Access Point Setup
 allow-hotplug wlan0
 iface wlan0 inet static
-	address 10.0.0.1
+	address 192.168.4.1
 	netmask 255.255.255.0
-	network 10.0.0.0
-	broadcast 10.0.0.255
+	network 192.168.4.0
+	broadcast 192.168.4.255
 
 EOF
 
