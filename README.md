@@ -4,8 +4,9 @@ Script to setup a WiFi Access Point (AP) on the Raspberry Pi's (3 or 4) built-in
 Based on https://gist.github.com/Lewiscowles1986/fecd4de0b45b2029c390
 
 Changes from the original:
-- Retain Wireless Networking config for secondary WiFi interfaces (wlan1)
+- Expanded DHCP space
+- Retain Wireless Networking config for secondary WiFi interfaces (wlan1) (TODO)
 - Set up a bridged connection from the AP on wlan0 to wlan1 -- assuming wlan1 has Internet access,
-  this will provide all AP users Internet access
+  this will provide all AP users Internet access (TODO)
 - Removed WPA configuration so that the Access Point is wide open -- NOTE: This is not what most
-  users will want or need, but is necessary in limited settings (a public meeting space, in this case)
+  users will want or need, but is necessary in limited settings (a public meeting space, in this case) (TODO)
